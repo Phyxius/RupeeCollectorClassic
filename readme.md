@@ -1,5 +1,5 @@
 #Rupee Collector Classic
-A remix of Rupee Collector I made for Chris Holden's Local Games class in Fall 2015. 
+A remix of Rupee Collector I made in a weekend for Chris Holden's Local Games class in Fall 2015. 
 
 This game uses [LÖVE](https://love2d.org/), a free game engine that uses Lua for scripting.
 #Running
