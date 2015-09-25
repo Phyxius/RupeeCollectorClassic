@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"bli",
+				"rupeeBlinkFrameCount"
+			],
+			[
+				"fra",
+				"framesSinceRupeeSpawn"
+			],
+			[
 				"curerw",
 				"currentStartingRow"
 			],
@@ -115,6 +123,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 8496,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 998,
+				"line_ending": "Windows",
+				"name": "#Rupee Collector Classic"
+			}
+		},
+		{
+			"file": "conf.lua",
+			"settings":
+			{
+				"buffer_size": 3030,
+				"line_ending": "Windows",
+				"name": "function love.conf(t)"
+			}
+		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -143,10 +177,54 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 147.0,
-		"last_filter": "project sa",
+		"height": 184.0,
+		"last_filter": "close pro",
 		"selected_items":
 		[
+			[
+				"close pro",
+				"Project: Close Project"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"addcu",
+				"Git: Add Current File"
+			],
+			[
+				"adcu",
+				"Git: Add Current File"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"projeced",
+				"Project: Edit Project"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"projeed",
+				"Project: Edit Project"
+			],
 			[
 				"project sa",
 				"Project: Save As"
@@ -178,14 +256,6 @@
 			[
 				"wrap",
 				"Word Wrap: Toggle"
-			],
-			[
-				"push",
-				"Git: Push"
-			],
-			[
-				"comm",
-				"Git: Commit"
 			],
 			[
 				"ad..",
@@ -252,10 +322,6 @@
 				"Word Wrap: Toggle"
 			],
 			[
-				"side",
-				"View: Toggle Side Bar"
-			],
-			[
 				"wordra",
 				"Word Wrap: Toggle"
 			],
@@ -265,14 +331,6 @@
 			],
 			[
 				"close pr",
-				"Project: Close Project"
-			],
-			[
-				"commi",
-				"Git: Commit"
-			],
-			[
-				"close pro",
 				"Project: Close Project"
 			],
 			[
@@ -528,10 +586,6 @@
 				"Git: Add Current File"
 			],
 			[
-				"quic",
-				"Git: Quick Commit"
-			],
-			[
 				"custom",
 				"Git: Custom Command"
 			],
@@ -638,29 +692,9 @@
 			[
 				"am",
 				"Git: Amend Commit"
-			],
-			[
-				"git ",
-				"Git: Add Current File"
-			],
-			[
-				"menu",
-				"View: Toggle Menu"
-			],
-			[
-				"toggle",
-				"View: Toggle Menu"
-			],
-			[
-				"status bar",
-				"View: Toggle Status Bar"
-			],
-			[
-				"git",
-				"Git: Init"
 			]
 		],
-		"width": 552.0
+		"width": 988.0
 	},
 	"console":
 	{
@@ -679,8 +713,14 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Shea/Dropbox/School/UNM/Fall 2015/Honors/Rupee Collector Classic"
+	],
 	"file_history":
 	[
+		"/C/Users/Shea/Dropbox/School/UNM/Fall 2015/Honors/Rupee Collector Classic/Rupee Collector Classic.app/Contents/Info.plist",
+		"/C/Users/Shea/Dropbox/School/UNM/Fall 2015/Honors/Rupee Collector Classic/Rupee Collector Classic.sublime-project",
 		"/C/Users/Shea/AppData/Roaming/Sublime Text 3/Packages/InsertDate/README.md",
 		"/C/Users/Shea/Dropbox/School/UNM/Fall 2015/CS361/Homework 3.tex",
 		"/C/Users/Shea/Dropbox/School/UNM/Fall 2015/CS351/Lab 2/src/Util.java",
@@ -779,7 +819,7 @@
 	],
 	"find":
 	{
-		"height": 81.0
+		"height": 132.0
 	},
 	"find_in_files":
 	{
@@ -795,6 +835,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rupeeimag",
+			"rupeeColors",
+			"score",
 			"**papers, Please**",
 			"enable",
 			"PT_",
@@ -851,6 +894,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"rupeeImages",
+			"displayScore",
 			"*Papers, Please*",
 			"PTRACE_",
 			"{{ site.github.owner_url }}",
@@ -889,8 +934,98 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7161,
+								7161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8976.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								998,
+								998
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#Rupee Collector Classic",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "conf.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2228,
+								2232
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function love.conf(t)",
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -941,7 +1076,7 @@
 	"project": "Rupee Collector Classic.sublime-project",
 	"replace":
 	{
-		"height": 158.0
+		"height": 216.0
 	},
 	"save_all_on_build": true,
 	"select_file":
